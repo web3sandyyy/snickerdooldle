@@ -8,7 +8,7 @@ import { Testimonials } from "../components/Testimonials";
 
 const Landing = () => {
   return (
-    <div className="min-h-screen font-['DM_Sans'] text-brown bg-beige">
+    <div className="min-h-screen font-['Lexend_Deca'] text-brown bg-beige">
       <Header />
       <Hero />
       <Locations />

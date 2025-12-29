@@ -18,7 +18,7 @@ export const WobblyButton: React.FC<WobblyButtonProps> = ({
 
   const variants = {
     primary: "bg-brown text-beige",
-    secondary: "bg-mustard text-brown",
+    secondary: "bg-accent text-brown",
     outline: "bg-transparent text-brown hover:bg-white",
   };
 

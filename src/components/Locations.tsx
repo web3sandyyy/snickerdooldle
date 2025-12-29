@@ -6,10 +6,10 @@ export const Locations: React.FC = () => {
   return (
     <GridSection bg="#fff" id="locations">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-['Fredoka'] font-bold mb-4">
+        <h2 className="text-5xl font-['Stinger'] font-bold mb-4">
           find your spot
         </h2>
-        <p className="font-['Space_Mono'] text-gray-600">
+        <p className="font-['Lexend_Deca'] text-gray-600">
           TWO LOCATIONS • ONE VIBE
         </p>
       </div>

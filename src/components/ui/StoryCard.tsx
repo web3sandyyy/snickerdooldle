@@ -15,9 +15,9 @@ export const StoryCard: React.FC<StoryCardProps> = ({ title, date, image }) => (
         className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
       />
     </div>
-    <h4 className="font-['Fredoka'] font-bold text-xl text-brown">
+    <h4 className="font-['Stinger'] font-bold text-xl text-brown">
       {title}
     </h4>
-    <p className="font-['Space_Mono'] text-xs text-gray-500 mt-1">{date}</p>
+    <p className="font-['Lexend_Deca'] text-xs text-gray-500 mt-1">{date}</p>
   </div>
 );

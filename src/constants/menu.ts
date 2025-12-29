@@ -26,7 +26,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     title: "Slow Bakes",
     description:
       "Sourdough toasts, cinnamon snickerdoodles, and gluten-free treats baked fresh daily.",
-    bgColor: "bg-mustard",
+    bgColor: "bg-accent",
     textColor: "text-brown",
   },
 ];

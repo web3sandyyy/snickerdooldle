@@ -14,17 +14,17 @@ export const Header = () => {
           alt={HEADER_CONFIG.logoAlt}
           className="w-10 h-10 md:w-12 md:h-12 object-contain"
         />
-        <span className="text-xl md:text-2xl font-['Fredoka'] font-black tracking-tighter text-brown">
+        <span className="text-xl md:text-2xl font-['Stinger'] font-black tracking-tighter text-brown">
           {HEADER_CONFIG.brandName}
         </span>
       </Link>
 
-      <div className="hidden md:flex gap-8 font-['Space_Mono'] font-bold text-sm tracking-wide">
+      <div className="hidden md:flex gap-8 font-['Lexend_Deca'] font-bold text-sm tracking-wide ">
         {NAV_LINKS.map((link) => (
           <a
             key={link.id}
             href={link.href}
-            className="hover:text-mustard transition-colors"
+            className="hover:text-accent transition-colors hover:underline decoration-wavy"
           >
             {link.label}
           </a>
@@ -32,7 +32,7 @@ export const Header = () => {
       </div>
 
       <div className="flex gap-4">
-        <button className="hidden md:block bg-brown text-beige px-4 py-1.5 rounded-full font-bold text-sm hover:bg-mustard hover:text-brown transition-colors">
+        <button className="hidden md:block bg-brown text-beige px-4 py-1.5 rounded-full font-bold text-sm hover:bg-accent hover:text-brown transition-colors">
           {HEADER_CONFIG.ctaButton.text}
         </button>
         <button
@@ -57,7 +57,7 @@ export const Header = () => {
           ))}
           <a
             href="/career"
-            className="text-mustard"
+            className="text-accent"
             onClick={() => setIsMenuOpen(false)}
           >
             We're Hiring!

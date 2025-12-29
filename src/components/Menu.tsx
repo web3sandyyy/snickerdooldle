@@ -8,7 +8,7 @@ export const Menu = () => {
       <div className="grid md:grid-cols-12 gap-12">
         {/* Left: Description */}
         <div className="md:col-span-5">
-          <h2 className="text-5xl font-['Fredoka'] font-bold mb-8">
+          <h2 className="text-5xl font-['Stinger'] font-bold mb-8">
             {MENU_CONFIG.title}
           </h2>
           <div className="space-y-8">
@@ -37,11 +37,11 @@ export const Menu = () => {
         {/* Right: The Menu Board */}
         <div className="md:col-span-7 bg-brown text-beige p-8 md:p-12 rounded-lg relative shadow-[10px_10px_0px_0px_rgba(0,0,0,0.2)]">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-gray-400 rounded-full border-2 border-[#2a0a0c]"></div>
-          <h3 className="text-center font-['Space_Mono'] text-2xl mb-8 border-b border-beige/20 pb-4">
+          <h3 className="text-center font-['Stinger'] text-2xl mb-8 border-b border-beige/20 pb-4">
             {MENU_CONFIG.boardTitle}
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 font-['DM_Sans']">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 font-['Lexend_Deca']">
             {MENU_ITEMS.map((item, index) => (
               <div key={index} className="flex justify-between items-end">
                 <span>{item.name}</span>
@@ -50,7 +50,7 @@ export const Menu = () => {
               </div>
             ))}
           </div>
-          <p className="text-center mt-8 text-xs font-['Space_Mono'] opacity-60">
+          <p className="text-center mt-8 text-xs font-['Lexend_Deca'] opacity-60">
             {MENU_CONFIG.disclaimer}
           </p>
         </div>

@@ -6,10 +6,10 @@ export const Hero = () => {
     <GridSection className="pt-32 md:pt-40">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <span className="inline-block bg-mustard border-2 border-brown px-3 py-1 font-['Space_Mono'] text-sm font-bold mb-6 -rotate-2">
+          <span className="inline-block bg-accent border-2 border-brown px-3 py-1 font-['Lexend_Deca'] text-sm font-bold mb-6 -rotate-2">
             YOUR NEIGHBORHOOD LIVING ROOM
           </span>
-          <h1 className="text-6xl md:text-7xl font-['Fredoka'] font-black leading-[0.9] mb-8 text-brown">
+          <h1 className="text-6xl md:text-7xl font-['Stinger'] font-black leading-[0.9] mb-8 text-brown">
             coffee,
             <br />
             culture,
@@ -37,7 +37,7 @@ export const Hero = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute bottom-0 left-10 w-60 h-60 bg-mustard border-2 border-brown -rotate-6 z-0 flex items-center justify-center overflow-hidden">
+          <div className="absolute bottom-0 left-10 w-60 h-60 bg-accent border-2 border-brown -rotate-6 z-0 flex items-center justify-center overflow-hidden">
             <img
               src="/api/placeholder/400/400"
               alt="Cafe Vibe"
