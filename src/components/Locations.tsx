@@ -4,7 +4,7 @@ import { LocationCard } from "./ui/LocationCard";
 
 export const Locations: React.FC = () => {
   return (
-    <GridSection bg="#fff" id="locations">
+    <GridSection bg="#F5F1E3" id="locations">
       <div className="text-center mb-16">
         <h2 className="text-5xl font-['Stinger'] font-bold mb-4">
           find your spot

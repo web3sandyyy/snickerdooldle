@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { MessageSquare, BookOpen, Mail } from "lucide-react";
+import { MessageSquare, BookOpen } from "lucide-react";
 
 export interface FooterBox {
   id: string;
@@ -31,15 +31,15 @@ export const FOOTER_BOXES: FooterBox[] = [
     actionText: "How it works",
     variant: "default",
   },
-  {
-    id: "feedback",
-    icon: Mail,
-    title: "Feedback",
-    description: "We listen to everything.",
-    type: "button",
-    actionText: "Open Form",
-    variant: "default",
-  },
+  // {
+  //   id: "feedback",
+  //   icon: Mail,
+  //   title: "Feedback",
+  //   description: "We listen to everything.",
+  //   type: "button",
+  //   actionText: "Open Form",
+  //   variant: "default",
+  // },
 ];
 
 export interface SocialLink {

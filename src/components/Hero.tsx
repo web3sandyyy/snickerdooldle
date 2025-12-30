@@ -1,5 +1,7 @@
 import { GridSection } from "./ui/GridSection";
 import { WobblyButton } from "./ui/WobblyButton";
+import place1 from "../assets/images/indoor3.webp";
+import place2 from "../assets/images/outdoor1.webp";
 
 export const Hero = () => {
   return (
@@ -22,8 +24,8 @@ export const Hero = () => {
             heart of Kalyan & Ambernath.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <WobblyButton>View Menu</WobblyButton>
-            <WobblyButton variant="outline">Upcoming Events</WobblyButton>
+            <WobblyButton className="shadow-brown/50">View Menu</WobblyButton>
+            <WobblyButton variant="outline" className="!bg-white">Upcoming Events</WobblyButton>
           </div>
         </div>
 
@@ -32,14 +34,14 @@ export const Hero = () => {
           {/* Placeholder images - replace with real shots */}
           <div className="absolute top-0 right-0 w-64 h-80 bg-white border-2 border-brown rotate-3 z-10 p-2 shadow-lg">
             <img
-              src="/api/placeholder/400/500"
+              src={place1}
               alt="Coffee Pour"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="absolute bottom-0 left-10 w-60 h-60 bg-accent border-2 border-brown -rotate-6 z-0 flex items-center justify-center overflow-hidden">
             <img
-              src="/api/placeholder/400/400"
+              src={place2}
               alt="Cafe Vibe"
               className="w-full h-full object-cover mix-blend-multiply opacity-80"
             />

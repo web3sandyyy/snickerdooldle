@@ -5,15 +5,17 @@ import { Locations } from "../components/Locations";
 import { Menu } from "../components/Menu";
 import { Stories } from "../components/Stories";
 import { Testimonials } from "../components/Testimonials";
+import { Gallery } from "../components/Gallery";
 
 const Landing = () => {
   return (
     <div className="min-h-screen font-['Lexend_Deca'] text-brown bg-beige">
       <Header />
       <Hero />
-      <Locations />
+      <Gallery />
       <Menu />
       <Stories />
+      <Locations />
       <Testimonials />
       <Footer />
     </div>

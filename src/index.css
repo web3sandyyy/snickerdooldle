@@ -151,5 +151,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Lexend Deca', sans-serif;
   }
 }
