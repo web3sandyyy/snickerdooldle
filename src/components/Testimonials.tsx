@@ -6,7 +6,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "../components/ui/carousel";
 import bg from "../assets/bg.webp";
 
 const reviews = [
